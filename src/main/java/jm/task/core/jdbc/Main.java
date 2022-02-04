@@ -10,6 +10,9 @@ public class Main {
         UserDaoJDBCImpl usd=new UserDaoJDBCImpl();
        // usd.dropUsersTable();
         //usd.createUsersTable();
-        usd.saveUser("Carolina","Smith", (byte) 27);
+       // usd.saveUser("Carolina","Smith", (byte) 27);
+       // usd.removeUserById(1116);
+        //usd.getAllUsers();
+       usd.cleanUsersTable();
     }
 }
